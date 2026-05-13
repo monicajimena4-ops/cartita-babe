@@ -6,7 +6,7 @@
   <title>Carta Secreta by Jime</title>
   <style>
     body {
-      font-family: 'cooper', sans-serif;
+      font-family: 'georgia', sans-serif;
       margin: 0;
       padding: 0;
       background-color: #fcf1e4;
@@ -39,6 +39,7 @@
       padding: 15px;
       cursor: pointer;
       transition: background 0.2s;
+      -webkit-appearance: none;
     }
     .key:hover {
       background-color: #ff9800;
@@ -53,11 +54,13 @@
       border: 3px solid #ff7e01;
       padding: 20px;
       border-radius: 20px;
-      width: 90%;
+      width: 75%;
       max-width: 500px;
+      min-width: 250px;
       text-align: left;
-      font-family: 'arial rounded mt', cursive, arial rounded mt;
+      font-family: 'arial', sans-serif;
       line-height: 1.6;
+      box-sizing: border-box;
     }
     .notepad h3 {
       margin-top: 0;
